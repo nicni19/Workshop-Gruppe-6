@@ -32,7 +32,7 @@ public abstract class Acturator extends Thing {
     @Override
     public String toString()
     {
-        return getName() + getValue();
+        return getName() + " " + getValue();
     }
     
 }
