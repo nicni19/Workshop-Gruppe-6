@@ -10,5 +10,8 @@ package workshopgruppe6;
  * @author tes_7
  */
 public class VentilationActuator extends Acturator {
-    
+    public VentilationActuator(String name, int value)
+    {
+        super(name, value);
+    }
 }
