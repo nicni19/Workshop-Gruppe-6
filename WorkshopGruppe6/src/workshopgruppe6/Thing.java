@@ -6,23 +6,17 @@
  */
 package workshopgruppe6;
 
+import java.util.ArrayList;
+
+import java.util.ArrayList;
+
+
 /**
  *
  * @author tes_7
  */
 public class Thing {
     
-=======
-
-package workshopgruppe6;
-
-import java.util.ArrayList;
-
-/**
- *
- * @author Nicos
- */
-public abstract class Thing {
     private String name;
     
     public String getName(){
@@ -35,9 +29,9 @@ public abstract class Thing {
     
     public void listToString(ArrayList<Thing> list){
         for(Thing t : list){
-            t.toString();
+            System.out.println(t.toString());
             System.out.println("/n");
         }
     }
->>>>>>> a300fa671aa88a2ace7b99df7ab496308c355298
+
 }
