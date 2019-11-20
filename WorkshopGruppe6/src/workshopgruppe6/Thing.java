@@ -26,12 +26,14 @@ public class Thing {
         this.name = name;
     }
     
-    public void listToString(ArrayList<Thing> list){
+    public void listToString(ArrayList<? extends Thing> list){
         for(Thing t : list){
             System.out.println(t.toString());
             System.out.println("/n");
         }
     }
+
+   
 
 }
 
