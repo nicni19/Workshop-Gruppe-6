@@ -16,15 +16,7 @@ import java.util.ArrayList;
  */
 public class Thing {
     
-
-
-/**
- *
- * @author Nicos
- */
-
     private String name;
-    
     
     public String getName(){
         return this.name;
@@ -36,7 +28,7 @@ public class Thing {
     
     public void listToString(ArrayList<Thing> list){
         for(Thing t : list){
-            t.toString();
+            System.out.println(t.toString());
             System.out.println("/n");
         }
     }
